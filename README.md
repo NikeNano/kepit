@@ -2,6 +2,20 @@
 Golang cli to remashal files to keep all fields even if empty and set to be empty. Work in progress. 
 
 
+## Install it
+
+From the root run: 
+
+```bash
+go install . 
+```
+
+test if installed succesfully:
+
+```bash
+kepit 
+```
+
 ## Examples
 
 ### One
@@ -26,5 +40,6 @@ kepit run -f examples/exampleAnimal.go -j examples/exampleAnimal.json -s Animal 
 - Make it work with directories to run on multiple json objects as well
 - Make ir work with files that hold multiple json objects in one file, not true json I guess or.....
 - Clean up the code base. 
+- Remove all cobra default code
 
 
